@@ -8,7 +8,7 @@ export const signInAction = (userState) => {
             username: userState.username
         }
     }
-};
+}
 
 export const SIGN_OUT = "SIGN_OUT"
 export const signOutAction = () => {
